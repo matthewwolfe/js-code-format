@@ -1,1 +1,1 @@
-# JS Code Format
+# TS Code Format
