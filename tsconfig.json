@@ -3,9 +3,7 @@
     "allowJs": false,
     "baseUrl": "./src",
     "esModuleInterop": true,
-    "exclude": ["node_modules", "src/**/*.spec.ts", "src/**/*.spec.tsx"],
     "forceConsistentCasingInFileNames": true,
-    "include": ["src/**/*.ts", "src/**/*.tsx"],
     "isolatedModules": true,
     "jsx": "preserve",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -16,5 +14,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es5"
-  }
+  },
+  "exclude": ["node_modules", "src/**/*.spec.ts", "src/**/*.spec.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
 }
